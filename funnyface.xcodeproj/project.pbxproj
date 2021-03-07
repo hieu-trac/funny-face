@@ -14,6 +14,8 @@
 		2D21D67E25F40808005D7EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D21D67D25F40808005D7EB1 /* Preview Assets.xcassets */; };
 		2D21D68925F40809005D7EB1 /* funnyfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21D68825F40809005D7EB1 /* funnyfaceTests.swift */; };
 		2D21D69425F40809005D7EB1 /* funnyfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21D69325F40809005D7EB1 /* funnyfaceUITests.swift */; };
+		2D21D6AB25F40C1C005D7EB1 /* PropChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21D6AA25F40C1C005D7EB1 /* PropChooser.swift */; };
+		2D3E3DAD25F5749400200030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E3DAC25F5749400200030 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2D21D68F25F40809005D7EB1 /* funnyfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funnyfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D21D69325F40809005D7EB1 /* funnyfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funnyfaceUITests.swift; sourceTree = "<group>"; };
 		2D21D69525F40809005D7EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D21D6AA25F40C1C005D7EB1 /* PropChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropChooser.swift; sourceTree = "<group>"; };
+		2D3E3DAC25F5749400200030 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		2D21D67325F40806005D7EB1 /* funnyface */ = {
 			isa = PBXGroup;
 			children = (
+				2D21D67F25F40808005D7EB1 /* Info.plist */,
+				2D21D67825F40806005D7EB1 /* Experience.rcproject */,
+				2D3E3DAC25F5749400200030 /* LaunchScreen.storyboard */,
 				2D21D67425F40806005D7EB1 /* AppDelegate.swift */,
 				2D21D67625F40806005D7EB1 /* ContentView.swift */,
-				2D21D67825F40806005D7EB1 /* Experience.rcproject */,
+				2D21D6AA25F40C1C005D7EB1 /* PropChooser.swift */,
 				2D21D67A25F40808005D7EB1 /* Assets.xcassets */,
-				2D21D67F25F40808005D7EB1 /* Info.plist */,
 				2D21D67C25F40808005D7EB1 /* Preview Content */,
 			);
 			path = funnyface;
@@ -236,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3E3DAD25F5749400200030 /* LaunchScreen.storyboard in Resources */,
 				2D21D67E25F40808005D7EB1 /* Preview Assets.xcassets in Resources */,
 				2D21D67B25F40808005D7EB1 /* Assets.xcassets in Resources */,
 			);
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D21D6AB25F40C1C005D7EB1 /* PropChooser.swift in Sources */,
 				2D21D67725F40806005D7EB1 /* ContentView.swift in Sources */,
 				2D21D67525F40806005D7EB1 /* AppDelegate.swift in Sources */,
 				2D21D67925F40806005D7EB1 /* Experience.rcproject in Sources */,
@@ -423,6 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"funnyface/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD92QP346R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = funnyface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"funnyface/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD92QP346R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = funnyface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
