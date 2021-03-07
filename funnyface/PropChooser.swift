@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 
 enum Prop: CaseIterable, Equatable {
-    case fancyHat, speechBubble, eyeball, glasses, food, mustache
+    case fancyHat, speechBubble, eyeball, glasses, food, mustache, robot, combo1, combo2
     
     private func nextCase(_ cases: [Self]) -> Self? {
         if self == cases.last {

@@ -13,5 +13,25 @@
     "libraryIdentifier" : "a843c68230b10474bf8a7961a9738807",
     "format" : "model",
     "displayName" : "Mustache.usdz"
+  },
+  {
+    "libraryIdentifier" : "d820c309dfab12e6df7ef06b708a2e9b",
+    "format" : "model",
+    "displayName" : "RobotEye.usdz"
+  },
+  {
+    "libraryIdentifier" : "daf935158ff2158af2ab58cb7049e364",
+    "format" : "model",
+    "displayName" : "RobotEyeLid.usdz"
+  },
+  {
+    "libraryIdentifier" : "2e3d78eb5f4447cacc767403cb54d089",
+    "format" : "model",
+    "displayName" : "RobotJaw.usdz"
+  },
+  {
+    "libraryIdentifier" : "1e94b27959d44bbea9b3dbf41daf52c9",
+    "format" : "model",
+    "displayName" : "RobotSkull.usdz"
   }
 ]
