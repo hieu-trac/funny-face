@@ -1,15 +1,15 @@
 # Funny Face
 ## Overview
 A sample ARKit and RealityKit app written using SwiftUI. Choose among several different looks including:
-	* Fancy Hat
-	* Speech Bubble
-	* Eyeball
-	* Glasses
-	* Food
-	* Mustache
-	* Robot
-	* Combo 1 (Fancy Hat, Glasses, and Mustache)
-	* Combo 2 (Robot and Food)
+* Fancy Hat
+* Speech Bubble
+* Eyeball
+* Glasses
+* Food
+* Mustache
+* Robot
+* Combo 1 (Fancy Hat, Glasses, and Mustache)
+* Combo 2 (Robot and Food)
 
 You can cycle between these different looks using the on screen arrow buttons. There’s also a camera capture button you can use to take a snapshot of the current view.
 
