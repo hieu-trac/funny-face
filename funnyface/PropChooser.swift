@@ -41,7 +41,7 @@ struct PropChooser: View {
             Button(action: {
                 currentProp = currentProp.previous()
             }) {
-                Image(systemName: "arrowtriangle.left.fill")
+                Image(systemName: "chevron.left.circle.fill")
                     .resizable()
                     .frame(width: 44, height: 44)
             }
@@ -49,20 +49,23 @@ struct PropChooser: View {
             Button(action: {
                 shouldTakeSnapShot = true
             }) {
-                Circle().stroke(lineWidth: 12.0)
+                Image(systemName: "camera.circle.fill")
+                    .resizable()
+                    .frame(width: 44, height: 44)
             }
             Spacer()
             Button(action: {
                 currentProp = currentProp.next()
             }) {
-                Image(systemName: "arrowtriangle.right.fill")
+                Image(systemName: "chevron.right.circle.fill")
                     .resizable()
                     .frame(width: 44, height: 44)
             }
         }
-        .frame(height: 100)
+        .frame(height: 60)
         .foregroundColor(.primary)
-        .padding(.horizontal)
+        .padding()
+        .background(BlurView(style: .light).edgesIgnoringSafeArea(.bottom))
     }
 }
 

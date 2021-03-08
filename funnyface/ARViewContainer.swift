@@ -56,7 +56,7 @@ struct ARViewContainer: UIViewRepresentable {
             guard let jawOpen = blendShapes[.jawOpen]?.floatValue, let eyeBlinkLeft = blendShapes[.eyeBlinkLeft]?.floatValue, let eyeBlinkRight = blendShapes[.eyeBlinkRight]?.floatValue,
                   let browInnerUp = blendShapes[.browInnerUp]?.floatValue, let browLeft = blendShapes[.browDownLeft]?.floatValue, let browRight = blendShapes[.browDownRight]?.floatValue else {return }
             
-            if !isSparking && jawOpen > 0.75 && browInnerUp < 0.4 {
+            if !isSparking && jawOpen > 0.6 && browInnerUp < 0.3 {
                 isSparking = true
                 
                 let lightLeft = makeRedLight()
